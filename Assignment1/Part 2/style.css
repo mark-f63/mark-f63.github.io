@@ -59,11 +59,14 @@ article,
 aside,
 footer,
 section {
-  background-color: #00ff0080;
+  background-color: #00bbff80;
   padding: 1%;
 }
 
 h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -72,7 +75,8 @@ h1 {
 }
 
 header img {
-  height: 60px;
+  height: 40px;
+  width: 40px;
 }
 
 nav ul {
@@ -117,10 +121,16 @@ aside a {
   display: block;
   float: left;
   width: 50%;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 aside img {
-  max-width: 100%;
+  max-width: 90%;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #2a2a2a;
 }
 
 footer {
