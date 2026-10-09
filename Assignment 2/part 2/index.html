@@ -15,7 +15,8 @@ which displays information about various planets in our solar system.
   </head>
   <body>
     <h1>Planet data table</h1>
-    <caption>
+    <table>
+        <caption>
         Data about the planets of our solar system (Planetary facts taken from 
         <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">
         Nasa's Planetary Fact Sheet - Metric</a>).
@@ -117,6 +118,7 @@ which displays information about various planets in our solar system.
             <td>The ringed planet</td>
         </tr>
         <tr>
+            <th rowspan="2" scope="rowgroup">Ice giants</th>
             <th scope="row">Uranus</th> 
             <td>86.8</td> 
             <td>51,118</td> 
@@ -128,7 +130,7 @@ which displays information about various planets in our solar system.
             <td>27</td> 
             <td>The ice giant</td>
         </tr>
-        <tr>
+        <tr> 
             <th scope="row">Neptune</th> 
             <td>102</td> 
             <td>49,528</td> 
@@ -141,9 +143,7 @@ which displays information about various planets in our solar system.
             <td>The farthest planet from the Sun</td>
         </tr>
         <tr>
-            <th scope="row">Dwarf planets</th>
-        </tr>
-        <tr>
+            <th colspan="2" scope="rowgroup">Dwarf planets</th>
             <th scope="row">Pluto</th>
             <td>0.0146</td>
             <td>2,370</td>
@@ -159,5 +159,6 @@ which displays information about various planets in our solar system.
         </tr>
 
     </tbody>
+    </table>
   </body>
 </html>
