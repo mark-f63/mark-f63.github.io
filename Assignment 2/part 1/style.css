@@ -57,7 +57,7 @@ header section {
     "heading heading"
     "text video"
     "text video";
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1.8fr;
   gap: 20px;
 }
 
@@ -72,8 +72,10 @@ header p {
 
 video {
   grid-area: video;
-  width: 100%;
+  width: 90%;
+  height: auto;
   border: 1px solid black;
+  box-sizing: border-box;
 }
 
 /* image floats */
