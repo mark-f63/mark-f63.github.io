@@ -32,3 +32,9 @@ ul{
   border: 5px solid purple;
   border-radius: 20px;
 }
+
+a:hover,
+a:focus {
+  color: darkgreen;
+  text-decoration: none;
+}
