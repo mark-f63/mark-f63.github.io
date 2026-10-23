@@ -2,6 +2,10 @@
 
 html{font-family: 'IBM Plex Serif', serif;}
 
+h1, h2{
+  font-family: 'Bevan', serif;
+}
+
 /* General setup */
 
 * {
@@ -64,7 +68,7 @@ a{
   outline: none;
 }
 
-a[href]{
+a[href*="http"] {
   padding-right: 16px;
   background: url("external-link-52.png") no-repeat right center;
   background-size: 14px 14px;
@@ -75,7 +79,7 @@ a:link, a:visited {
 }
 
 a:focus, a:hover {
-  color: #aa6666;
+  color: #773333;
   text-decoration: none;
 }
 
@@ -87,3 +91,39 @@ ul{
   list-style-type: square;
 }
 
+ol{
+  list-style-type: lower-roman;
+}
+
+nav li{
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+nav li a{
+  display: inline-block;
+  width: 100%;
+  font-family: 'Bevan', serif;
+  border: 1px solid #aa6666;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 3.5;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+nav li a:focus, nav li a:hover{
+  background-color: #aa6666;
+  color: #fff;
+}
+
+nav li a:focus, nav li a:hover{
+  background-color: #aa6666;
+  color: #fff;
+}
+
+nav li a:active{
+  background-color:black;
+  color: #fff;
+}
